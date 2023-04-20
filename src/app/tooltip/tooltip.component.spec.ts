@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomToolTipComponent } from './custom-tool-tip.component';
+import { TooltipComponent } from './tooltip.component';
 
-describe('CustomToolTipComponent', () => {
-  let component: CustomToolTipComponent;
-  let fixture: ComponentFixture<CustomToolTipComponent>;
+describe('TooltipComponent', () => {
+  let component: TooltipComponent;
+  let fixture: ComponentFixture<TooltipComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CustomToolTipComponent ]
+      declarations: [ TooltipComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CustomToolTipComponent);
+    fixture = TestBed.createComponent(TooltipComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
